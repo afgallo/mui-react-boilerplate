@@ -1,0 +1,70 @@
+{
+  "name": "mui-react-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix"
+  },
+  "dependencies": {
+    "@emotion/react": "11.x.x",
+    "@emotion/styled": "11.x.x",
+    "@material-ui/core": "5.0.0-beta.2",
+    "@material-ui/icons": "5.0.0-beta.1",
+    "@testing-library/jest-dom": "5.x.x",
+    "@testing-library/react": "12.x.x",
+    "@testing-library/user-event": "13.x.x",
+    "react": "17.x.x",
+    "react-dom": "17.x.x",
+    "react-router-dom": "5.x.x",
+    "react-scripts": "4.x.x",
+    "web-vitals": "2.x.x"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "13.x.x",
+    "@commitlint/config-conventional": "13.x.x",
+    "commitizen": "4.x.x",
+    "eslint-config-prettier": "8.x.x",
+    "eslint-plugin-prettier": "3.x.x",
+    "husky": "7.x.x",
+    "lint-staged": "11.x.x"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --config ./.prettierrc --write --loglevel silent",
+      "eslint --quiet --fix"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
