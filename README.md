@@ -5,7 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 * [Material UI](https://material-ui.com/)
 * [React Router](https://reactrouter.com/)
-* [Commitlint](https://github.com/facebook/create-react-app)
+* [Commitlint](https://commitlint.js.org/)
+* [Commitizen](https://commitizen-tools.github.io/commitizen/)
 * [Eslint](https://eslint.org/)
 * [Prettier](https://prettier.io/)
 * [Husky](https://typicode.github.io/husky/#/)

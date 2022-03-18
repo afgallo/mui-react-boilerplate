@@ -1,4 +1,4 @@
-import { Typography, Link } from '@material-ui/core'
+import { Typography, Link } from '@mui/material'
 
 export default function Copyright() {
   return (

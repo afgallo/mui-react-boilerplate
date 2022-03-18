@@ -13,25 +13,26 @@
   "dependencies": {
     "@emotion/react": "11.x.x",
     "@emotion/styled": "11.x.x",
-    "@material-ui/core": "5.0.0-beta.2",
-    "@material-ui/icons": "5.0.0-beta.1",
+    "@mui/icons-material": "5.x.x",
+    "@mui/material": "5.x.x",
+    "@mui/styles": "5.x.x",
     "@testing-library/jest-dom": "5.x.x",
     "@testing-library/react": "12.x.x",
     "@testing-library/user-event": "13.x.x",
     "react": "17.x.x",
     "react-dom": "17.x.x",
-    "react-router-dom": "5.x.x",
-    "react-scripts": "4.x.x",
+    "react-router-dom": "6.x.x",
+    "react-scripts": "5.x.x",
     "web-vitals": "2.x.x"
   },
   "devDependencies": {
-    "@commitlint/cli": "13.x.x",
-    "@commitlint/config-conventional": "13.x.x",
+    "@commitlint/cli": "16.x.x",
+    "@commitlint/config-conventional": "16.x.x",
     "commitizen": "4.x.x",
     "eslint-config-prettier": "8.x.x",
-    "eslint-plugin-prettier": "3.x.x",
+    "eslint-plugin-prettier": "4.x.x",
     "husky": "7.x.x",
-    "lint-staged": "11.x.x"
+    "lint-staged": "12.x.x"
   },
   "config": {
     "commitizen": {

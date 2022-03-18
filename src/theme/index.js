@@ -1,5 +1,5 @@
-import { red } from '@material-ui/core/colors'
-import { createTheme } from '@material-ui/core/styles'
+import { red } from '@mui/material/colors'
+import { createTheme } from '@mui/material'
 
 // A custom theme for this app
 const theme = createTheme({
@@ -8,9 +8,9 @@ const theme = createTheme({
   },
   palette: {
     mode: 'light',
-    // primary: {
-    //   main: '#2A9D8F'
-    // },
+    primary: {
+      main: '#2A9D9F'
+    },
     secondary: {
       main: '#fff'
     },

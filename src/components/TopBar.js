@@ -1,6 +1,6 @@
-import { AppBar, Box, Toolbar, Typography, IconButton, Link } from '@material-ui/core'
+import { AppBar, Box, Toolbar, Typography, IconButton, Link } from '@mui/material'
 import { Link as RouterLink } from 'react-router-dom'
-import MenuIcon from '@material-ui/icons/Menu'
+import MenuIcon from '@mui/icons-material/Menu'
 
 export default function TopBar() {
   return (

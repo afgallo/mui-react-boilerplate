@@ -1,5 +1,5 @@
-import Link from '@material-ui/core/Link'
-import { Typography, SvgIcon } from '@material-ui/core'
+import Link from '@mui/material/Link'
+import { Typography, SvgIcon } from '@mui/material'
 
 function LightBulbIcon(props) {
   return (
